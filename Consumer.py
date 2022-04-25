@@ -10,9 +10,9 @@ import temp
 class Consumer:
     
     #consumer_property
-    consumer = KafkaConsumer("first_topic",
-            bootstrap_servers='localhost:9092',
-            auto_offset_reset='latest')
+    consumer = KafkaConsumer("TOPIC", #topic-name-here
+            bootstrap_servers='localhost:9092', #IP-address
+            auto_offset_reset='latest') #offset-start-index
     
     print("starting the consumer")
    
@@ -43,7 +43,7 @@ class Consumer:
         SQL = [ID + 1, company_name, date, current_time, company_open, company_close, company_high, company_low]
         print(SQL)
               
-        with open('C:/Users/VK/Desktop/1 Project/stock.csv', 'a', newline='') as data_store:
+        with open('<FILE-PATH>/stock.csv', 'a', newline='') as data_store:
             writer = csv.writer(data_store)
             writer.writerow(SQL)
        
