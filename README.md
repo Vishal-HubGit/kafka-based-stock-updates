@@ -1,6 +1,6 @@
 ## STOCK UPDATE
 
-## header Introduction
+## Introduction
 
 
 #Checking font
