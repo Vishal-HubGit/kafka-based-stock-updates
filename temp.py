@@ -5,14 +5,14 @@ from fpdf import FPDF
 
 #index for csv insertion
 def index():
-    with open('C:/Users/VK/Desktop/1 Project/stock.csv', 'r') as index:
+    with open('<FILE-PATH>/stock.csv', 'r') as index:
         ID = list(index.readlines()[-1].split(','))[0]
     
     return ID
 
 #candlestick update 
 def graph():
-    data = pd.read_csv('C:/Users/VK/Desktop/1 Project/stock.csv')
+    data = pd.read_csv('<FILE-PATH>/stock.csv')
     data_stock = data[['Company_Name', 'Date', 'Time', 'Open', 'Close', 'High', 'Low']]
     length = len(data)
     Company_name_label = list(data_stock.Company_Name[length - 8:length + 1])
@@ -41,7 +41,7 @@ def graph():
             plt.xlabel(Date_label[i])
         else:
             plt.xlabel(Date_label[i] + ' at ' + Time_label[i])
-        plt.savefig(f'C:/Users/VK/Desktop/1 Project/{i+1}.png')
+        plt.savefig(f'<FILE-PATH>/{i+1}.png')
         plt.clf()
 
     return print("GRAPHS PRODUCED SUCCESSFULLY")
@@ -50,15 +50,15 @@ def graph():
 def pdf_graph():
     pdf = FPDF(orientation='L', unit='mm', format='A4')
     pdf.add_page()
-    pdf.image('C:/Users/VK/Desktop/1 Project/1.png', 5, -4, 140, 105)
-    pdf.image('C:/Users/VK/Desktop/1 Project/2.png', 150, -4, 140, 105)
-    pdf.image('C:/Users/VK/Desktop/1 Project/3.png', 5, 102, 140, 105)
-    pdf.image('C:/Users/VK/Desktop/1 Project/4.png', 150, 102, 140, 105)
+    pdf.image('<FILE-PATH>/1.png', 5, -4, 140, 105)
+    pdf.image('<FILE-PATH>/2.png', 150, -4, 140, 105)
+    pdf.image('<FILE-PATH>/3.png', 5, 102, 140, 105)
+    pdf.image('<FILE-PATH>/4.png', 150, 102, 140, 105)
     pdf.add_page()
-    pdf.image('C:/Users/VK/Desktop/1 Project/5.png', 5, -4, 140, 105)
-    pdf.image('C:/Users/VK/Desktop/1 Project/6.png', 150, -4, 140, 105)
-    pdf.image('C:/Users/VK/Desktop/1 Project/7.png', 5, 102, 140, 105)
-    pdf.image('C:/Users/VK/Desktop/1 Project/8.png', 150, 102, 140, 105)
+    pdf.image('<FILE-PATH>/5.png', 5, -4, 140, 105)
+    pdf.image('<FILE-PATH>/6.png', 150, -4, 140, 105)
+    pdf.image('<FILE-PATH>/7.png', 5, 102, 140, 105)
+    pdf.image('<FILE-PATH>/8.png', 150, 102, 140, 105)
     pdf.output('check.pdf')
 
     return print("PDF PRODUCED SUCCESSFULLY")
