@@ -4,11 +4,11 @@
 
 ## Table of contents
 * [Introduction](#Introduction)
-* [Technologies]
-* [Screenshots]
-* [Launch]
-* [Setup]
-* [Additional]
+* [Technologies](#Technologies)
+* [Screenshots](#Screenshots)
+* [Launch](#Launch)
+* [Setup](#Setup)
+* [Additional](#Additional)
 
 ## Introduction
 ## Technologies
