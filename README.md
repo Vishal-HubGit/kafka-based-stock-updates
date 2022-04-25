@@ -1,1 +1,3 @@
-# STOCK UPDATE
+## STOCK UPDATE
+
+#Introduction
