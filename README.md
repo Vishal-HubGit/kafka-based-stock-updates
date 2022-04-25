@@ -1,4 +1,4 @@
 ## STOCK UPDATE
 
-#Introduction
+##Introduction
 Checking font
