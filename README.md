@@ -1,6 +1,6 @@
-## STOCK UPDATE
+# STOCK UPDATE
 
 ## Introduction
 
 
-# Checking font
+## Checking font
