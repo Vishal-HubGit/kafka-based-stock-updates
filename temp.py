@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 from fpdf import FPDF
+import time
 
 #index for csv insertion
 def index():
@@ -59,7 +60,7 @@ def pdf_graph():
     pdf.image('<FILE-PATH>/6.png', 150, -4, 140, 105)
     pdf.image('<FILE-PATH>/7.png', 5, 102, 140, 105)
     pdf.image('<FILE-PATH>/8.png', 150, 102, 140, 105)
-    pdf.output('check.pdf')
+    pdf.output(f'{time.strftime("%Y%m%d-%H%M%S")}.pdf')
 
     return print("PDF PRODUCED SUCCESSFULLY")
     
