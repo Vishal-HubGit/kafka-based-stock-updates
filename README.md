@@ -61,4 +61,4 @@ pip install mysql-connector-python
 
 
 ## Additional
-##
+In addition to stock updates, there are other methods also available to fetch company logo or company information inside the IEX_Cloud.py .
