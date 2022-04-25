@@ -3,7 +3,7 @@
 ## AIM
 
 ## Table of contents
-* [Introduction]
+* [Introduction](#Introduction)
 * [Technologies]
 * [Screenshots]
 * [Launch]
