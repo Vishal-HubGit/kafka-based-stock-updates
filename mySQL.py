@@ -1,6 +1,7 @@
 #imports
 import mysql.connector
 import pandas as pd
+from temp import graph,pdf_graph
 
 #create a connection to the database
 mydb = mysql.connector.connect(
@@ -39,3 +40,6 @@ for i, row in data_stock.iterrows():
 
 #final commit    
 mydb.commit()
+
+graph()
+pdf_graph()
