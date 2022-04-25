@@ -1,6 +1,6 @@
 # KAFKA BASED STOCK UPDATES
 
-## AIM
+## Aim
 The project is created to fetch stock updates using Apache Kafka and updating MySQL data repository. Also a visual representation of stock of different companies are made as candlestick chart and stored in PDF format.  
 
 ## Table of contents
