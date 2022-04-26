@@ -28,8 +28,11 @@ Project is created with:
 * matplotlib library
 
 ## Screenshots
+* Apache Kafka
 ![Kafka](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/kafka.png)
+* Python script
 ![Kafka-Python](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/kafka-python.png)
+* MySQL
 ![MySQL](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/MySQL.png)
 
 ## Setup
