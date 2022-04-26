@@ -29,7 +29,8 @@ Project is created with:
 
 ## Screenshots
 ![Kafka](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/kafka.png)
-![
+![Kafka-Python](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/kafka-python.png)
+![MySQL](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/MySQL.png)
 
 ## Setup
 To run this project, the following programs are required:
