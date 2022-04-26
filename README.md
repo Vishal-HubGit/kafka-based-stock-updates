@@ -28,7 +28,7 @@ Project is created with:
 * matplotlib library
 
 ## Screenshots
-
+![Kafka](https://github.com/Vishal-HubGit/kafka-based-stock-updates/blob/main/visuals/kafka.png)
 
 ## Setup
 To run this project, the following programs are required:
